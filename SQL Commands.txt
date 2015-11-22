@@ -29,7 +29,7 @@ These are all the select clauses we've seen in the lesson so far.
 
 where
 
-Note: where always runs before aggregations!!!
+Note: where is a restriction on the source tables thus it always runs before aggregations!!!
 
 The where clause expresses restrictions — filtering a table for rows that follow a particular rule. where supports equalities, inequalities, and boolean operators (among other things):
 
@@ -65,3 +65,7 @@ insert into table values ( val1, val2, ... );
 For instance, if a table has three columns (a, b, c) and you want to insert into a and b, you can leave off the column names from the insert statement. But if you want to insert into b and c, or a and c, you have to specify the columns.
 
 A single insert statement can only insert into a single table. (Contrast this with the select statement, which can pull data from several tables using a join.)
+
+having
+
+having is a restriction on the result...after aggregation!
