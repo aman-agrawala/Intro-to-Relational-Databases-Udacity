@@ -29,6 +29,8 @@ These are all the select clauses we've seen in the lesson so far.
 
 where
 
+Note: where always runs before aggregations!!!
+
 The where clause expresses restrictions — filtering a table for rows that follow a particular rule. where supports equalities, inequalities, and boolean operators (among other things):
 
 where species = 'gorilla' — return only rows that have 'gorilla' as the value of the species column.
